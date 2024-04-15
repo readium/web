@@ -1,6 +1,6 @@
 # 🌐 Readium Web
 
-Readium Web is a toolkit for building Web Readers that support ebooks, audiobooks and comics.
+Readium Web is a toolkit for building Web Readers. It currently supports EPUB, with plans for PDF, audiobooks and comics/manga/webtoons in future revisions.
 
 This repo is a work in progress, but it will host documentation and project management for the Readium Web project.
 
