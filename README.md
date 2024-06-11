@@ -6,7 +6,7 @@ This repo is a work in progress, but it will host documentation and project mana
 
 Readium Web is divided into two separate toolkits:
 
-- the [TypeScript toolkit](https://github.com/readium/ts-toolkit/tree/dev)
+- the [TypeScript toolkit](https://github.com/readium/ts-toolkit)
 - and the [Go toolkit](https://github.com/readium/go-toolkit)
 
 ## Live demo
@@ -16,7 +16,7 @@ Readium Web is divided into two separate toolkits:
 
 ## License
 
-Readium Web is published under a [BSD-3 license](LICENSE).
+Readium Web is published under a [BSD-3 license](https://github.com/readium/web/blob/main/LICENSE).
 
 ```
 BSD 3-Clause License
@@ -47,5 +47,4 @@ SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
 CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
 OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
 OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
-
 ```
