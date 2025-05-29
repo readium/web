@@ -29,21 +29,21 @@ Whereas the primary use case of the `ts-toolkit` in a Web Reader implementation 
 
 We could say that the `go-toolkit` turns a publication into an API, whereas the `ts-toolkit` is the engine of a Web Reader.
 
+## Thorium Web and the Readium CLI
+
+In addition to these toolkits, implementers can also build their projects directly on top of [Thorium Web](https://github.com/edrlab/thorium-web) and the [Readium CLI](https://github.com/readium/cli).
+
+Thorium Web is an open-licensed Web Reader that's built on top of the TypeScript toolkit, providing UI components and all of the features that you would expect from a reading app.
+
+The Readium CLI can stream EPUB publications over HTTP/HTTPS or connect to a storage such as S3, GCS or the local filesystem of a server.
+
+We recommand looking into both projects as your default options when deploying a Web Reader.
+
 ## Readium Playground
 
-The playground is a work in progress meant to illustrate the capabilities of Readium Web. In its current state, it provides a very basic vanilla reader that allows the user to navigate through publications.
+[Readium Playground](https://github.com/readium/playground) is a reference implementation of Thorium Web.
 
-Future work on this project will progressively bring it up to par with a reference implementation. Our current ETA for this work is to have something ready by the end of 2024.
-
-- [Moby Dick](https://playground.readium.org/?book=https://publication-server.readium.org/bW9ieS1kaWNrLmVwdWI) (reflowable EPUB)
-- [Bella the Dragon](https://playground.readium.org/?book=https://publication-server.readium.org/QmVsbGFPcmlnaW5hbDMuZXB1Yg) (fixed layout EPUB)
-
-## Implementations
-
-### De Marque
-
-- [EPUB](https://r.cantook.com/cant/sample/aHR0cHM6Ly93d3cuY2FudG9vay5uZXQvc2FtcGxlLzUyODYyOTUvd2ViX3JlYWRlcl9tYW5pZmVzdD9mb3JtYXRfbmF0dXJlPWVwdWImc2lnaWQ9MTY4NzkyMzY5MiZzaWduYXR1cmU9NGM3YjA2YjYyMGE5ZWViNDdiYTliZTYyN2MzYjQ1MmJmNDc3ZWE1OTc0M2UwODJhOTAwMmExYTk5NDA2ODUxOA)
-- [EPUB Fixed Layout](https://r.cantook.com/cant/sample/aHR0cHM6Ly93d3cuY2FudG9vay5uZXQvc2FtcGxlLzEwOTUwNTQwL3dlYl9yZWFkZXJfbWFuaWZlc3Q_Zm9ybWF0X25hdHVyZT1lcHViJnNpZ2lkPTE2ODc5MjM2OTImc2lnbmF0dXJlPTlmY2IyOWFmYjY2MGM0NDEzZmUwMmQ5ZGIyYTVkOTEyNTg1Yjc0OWE3Zjc4NTcwNGI2ZDEzMDExYzFiZjhlMmY)
+A demo is available at <https://playground.readium.org> to play with the capabilities of Readium Web and Thorium Web. Unlike a vanilla version of Thorium Web, it also provides various affordances meant to illustrate how implementers can customize the behaviour of a Web Reader.
 
 ## License
 
